@@ -26,4 +26,5 @@ function soltuion(num1, num2) {
     return answer;
   }
 }
+//ex
 console.log(soltuion(7, 2));
