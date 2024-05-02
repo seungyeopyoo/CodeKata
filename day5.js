@@ -33,5 +33,5 @@ function solution(num1, num2) {
     }
   }
 }
-
+//ex)
 console.log(solution(20, 20));
