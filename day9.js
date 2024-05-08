@@ -24,11 +24,11 @@
 // 그 중 짝수만 합 
 
 var solution = function (n) {
-    if (n > 0 && n <=1000) {
+    if (n > 0 && n <= 1000) {
         let sum = 0;
-        for (let i = 2; i <=n; i+=2) {
+        for (let i = 2; i <= n; i += 2) {
             sum += i;
-        } 
+        }
         return sum;
     }
 }
