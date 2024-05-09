@@ -25,12 +25,29 @@
 
 
 function solution(arr) {
+    // 배열의 길이가 1 이상 100 이하이고, 각 요소가 0 이상 1,000 이하인지 확인합니다.
+    if (arr.length >= 1 && arr.length <= 100) {
+        for (let i = 0; i < arr.length; i++) {
+            // 위의 length에 && 으로 이어 붙이지 않는 이유 = 변수 'i'를 아직 정의하지 않아서, for문에서 정의한 후에 범위설정 
+            if (!(arr[i] >= 0 && arr[i] <= 1000)) {
+                return "배열의 각 요소는 0 이상 1,000 이하이어야 합니다."; // arr[i]값이 범위내에 없을경우 출력 
+            }
+        }
+    } else {
+        return "배열의 길이는 1 이상 100 이하이어야 합니다.";  // 첫번째, 두번째 if문이 거짓일 경우에 실행 
+    }
+
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
-    return sum / arr.length;
-}
+    const average = sum / arr.length;
 
+    if (average % 1 === 0 || average % 1 === 0.5) { // average를 1로 나누었을때 나머지가 0이거나 0.5인 경우에는 그대로 출력 
+        return average;
+    } else {
+        return Math.floor(average); // 0혹은 0.5가 아닐 경우에 정수 부분만 출력 
+    }
+}
 // ex 
-console.log(solution([1, 6, 3, 8, 5]));
+console.log(solution([1, 6, 3, 8, 5])); // 4.6 이지만 0.6은 출력되지 않는다. 
