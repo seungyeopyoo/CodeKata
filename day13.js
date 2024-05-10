@@ -26,9 +26,9 @@
 let solution = function (n) {
     if (n <= 100000000) {
         let answer = 0;
-        let str = n + ""
-        for (i = 0; i < str.length; i++) {
-            answer += parseInt(str[i]);
+        let str = n + ""                         // 숫자를 문자열로 변환 
+        for (i = 0; i < str.length; i++) {      // 변환 된 문자열을 순회하여 나열 
+            answer += parseInt(str[i]);        // 각 자릿수를 정수로 변환하여 합한 값 = answer 
         }
         return answer;
     } else {
