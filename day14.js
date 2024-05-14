@@ -23,9 +23,9 @@
 let solution = function (n) {
     if (n >= 0 && n <= 3000) {     //범위설정
         let answer = 0;
-        for (let i = 1; i <= n; i++) { //1 부터 i 까지 나열하면서 나눠줘
-            if (n % i === 0) {         // 그중에서 나머지가 0인 친구들만 
-                answer += i;
+        for (let i = 1; i <= n; i++) { //1 부터 i 까지 나열
+            if (n % i === 0) {         // 그중에서 n/i의 나머지가 0인 친구들만 
+                answer += i;          // 얘들을 다 더해준 값 
             }
         }
         return answer;
