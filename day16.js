@@ -16,11 +16,12 @@
 // x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트
 // let answer = []; return answer ; 리스트로 리턴......은 일단 제껴두고
 // for 문인데 x 로시작하고 let i=x i<=n i++ 이렇게가 가능한 부분 ? <- 완전히 땡 
+// push 아예 생각 못했음 
 
 const solution = function (x, n) {
     if (x >= -10000000 && x <= 10000000 && n <= 1000) {
         let answer = [];              // <- 이렇게하면 리스트로 받을수있나봄 
-        for (let i = 0; i <= n; i++) {
+        for (let i = 0; i < n; i++) {
             answer.push(x + x * i); //x 부터 시작해 x 씩 증가하는 숫자를 리스트에 추가 
         }
         return answer;
@@ -28,3 +29,4 @@ const solution = function (x, n) {
 }
 
 console.log(solution(3, 4));
+console.log(solution(2, 7));
