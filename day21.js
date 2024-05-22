@@ -29,7 +29,7 @@
 // x를 문자열로 만들고 -> 나열된 문자열의 각자릿수를 더해서 parseInt : answer-> x%answer ===0 이면 출력
 let solution = function (x) {
     let answer = 0;
-    str = x + "";
+    let str = x + "";
     for (i = 0; i < str.length; i++) {
         answer += parseInt(str[i]);
     }
