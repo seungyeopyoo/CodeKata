@@ -19,3 +19,4 @@ let solution = function (seoul) {
 
 console.log(solution(["Jane", "Kim"]));
 
+// 0 점 나옴... 다른분들 풀이 보고 공부해서 다시. 
