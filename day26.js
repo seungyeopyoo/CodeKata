@@ -33,7 +33,7 @@ let solution = function (absolutes, signs) {
     }
     return sumArr; // 최종 합계를 반환
 }
-
+// 숫자 1은 true 고 0은 false  값이 있으면 true 없으면 false 
 
 console.log(solution([4, 7, 12], [true, false, true])); // 출력: 9
 console.log(solution([1, 2, 3], [false, false, true])); // 출력: 0
