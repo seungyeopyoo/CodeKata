@@ -1,5 +1,3 @@
-let a = [true, false, true]
+let arr = [4, 3, 2, 1]
 
-if (a[1]) {
-    console.log(a[0]);
-}
+console.log(...arr);
