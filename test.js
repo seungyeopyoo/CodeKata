@@ -1,3 +1,3 @@
-let arr = [4, 3, 2, 1]
+let a = Math.floor(5 / 3);
 
-console.log(...arr);
+console.log(a);
