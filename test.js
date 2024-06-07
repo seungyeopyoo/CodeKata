@@ -1,3 +1,11 @@
-let a = Math.floor(5 / 3);
+let solution = function (n) {
+    let measure = [];
+    for (i = 1; i < n; i++) {
+        if (n % i === 0) {
+            measure.push(i);
+        }
+    }
+    return measure.length;
+}
+console.log(solution(10));
 
-console.log(a);
