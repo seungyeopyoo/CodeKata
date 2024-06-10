@@ -1,11 +1,30 @@
-let solution = function (n) {
-    let measure = [];
-    for (i = 1; i < n; i++) {
-        if (n % i === 0) {
-            measure.push(i);
-        }
-    }
-    return measure.length;
-}
-console.log(solution(10));
+let str = 'Zbcdefg';
+let Arrs = [...str]
 
+
+// Arrs.sort(function (a, b) {
+
+//     var aa = a.toUpperCase();
+//     var bb = b.toUpperCase();
+
+//     return aa < bb ? 1 : aa > bb ? -1 : 0;
+// });
+
+
+// console.log(Arrs);
+// console.log('A' > 'a')
+
+let arr = ['a', 'B', 'Z', 'Y', 'c']
+
+
+
+// arr.sort((a, b) => {
+//     if (a > b) {
+//         return -1;
+//     } else {
+//         return 1;
+//     }
+// }
+// );
+
+console.log(Arrs);
