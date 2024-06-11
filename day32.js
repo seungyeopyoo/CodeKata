@@ -12,18 +12,17 @@
 
 // a와 b의 내적은 (-1)*1 + 0*0 + 1*(-1) = -2 입니다.
 
-// 
+//
 
 let solution = function (a, b) {
-    let answer = 0;
+	let answer = 0;
 
-    //배열길이만큼 반복문 실행
-    for (let i = 0; i < a.length; i++) {
+	//배열길이만큼 반복문 실행
+	for (let i = 0; i < a.length; i++) {
+		answer += a[i] * b[i];
+	}
 
-        answer += a[i] * b[i];
-    }
-
-    return answer;
+	return answer;
 };
 console.log(solution([1, 2, 3, 4], [-3, -1, 0, 2]));
 console.log(solution([-1, 0, 1], [1, 0, -1]));

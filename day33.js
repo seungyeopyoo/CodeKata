@@ -23,33 +23,33 @@
 // 27	1, 3, 9, 27	4
 // 따라서, 24 - 25 + 26 + 27 = 52를 return 해야 합니다.
 
-// left 부터 right 까지 숫자들 구하고 
+// left 부터 right 까지 숫자들 구하고
 // 그 분들 약수 구하고 카운트
 // if 짝수면 + 홀수면 -
 
 let solution = function (left, right) {
-    // 주어진 숫자의 약수 개수를 구하는 함수
-    function countDivisors(n) {
-        let count = 0;
-        for (let i = 1; i <= n; i++) {
-            if (n % i === 0) {
-                count++;
-            }
-        }
-        return count;
-    }
+	// 주어진 숫자의 약수 개수를 구하는 함수
+	function countDivisors(n) {
+		let count = 0;
+		for (let i = 1; i <= n; i++) {
+			if (n % i === 0) {
+				count++;
+			}
+		}
+		return count;
+	}
 
-    let result = 0;
-    for (let i = left; i <= right; i++) {
-        let divisorsCount = countDivisors(i);
-        if (divisorsCount % 2 === 0) {
-            result += i;
-        } else {
-            result -= i;
-        }
-    }
-    return result;
-}
+	let result = 0;
+	for (let i = left; i <= right; i++) {
+		let divisorsCount = countDivisors(i);
+		if (divisorsCount % 2 === 0) {
+			result += i;
+		} else {
+			result -= i;
+		}
+	}
+	return result;
+};
 
 console.log(solution(13, 17)); // 43
 console.log(solution(24, 27)); // 52

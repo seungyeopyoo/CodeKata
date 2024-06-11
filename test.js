@@ -1,30 +1,7 @@
-let str = 'Zbcdefg';
-let Arrs = [...str]
-
-
-// Arrs.sort(function (a, b) {
-
-//     var aa = a.toUpperCase();
-//     var bb = b.toUpperCase();
-
-//     return aa < bb ? 1 : aa > bb ? -1 : 0;
-// });
-
-
-// console.log(Arrs);
-// console.log('A' > 'a')
-
-let arr = ['a', 'B', 'Z', 'Y', 'c']
-
-
-
-// arr.sort((a, b) => {
-//     if (a > b) {
-//         return -1;
-//     } else {
-//         return 1;
-//     }
+// let lastPayment = 0;
+// for (let i = 1; i < 5; i++) {
+// 	lastPayment += 3 * i;
 // }
-// );
+// console.log(lastPayment);
 
-console.log(Arrs);
+console.log(Math.abs(-10));
