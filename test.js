@@ -1,7 +1,8 @@
-// let lastPayment = 0;
-// for (let i = 1; i < 5; i++) {
-// 	lastPayment += 3 * i;
-// }
-// console.log(lastPayment);
+// let solution = function (s) {
+// 	const sArr = [...s];
 
-console.log(Math.abs(-10));
+// };
+let findNumberArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+let s = 'a';
+
+console.log(findNumberArr.includes(s));
