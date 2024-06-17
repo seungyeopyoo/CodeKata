@@ -1,22 +1,16 @@
-// let arr1 = [4, 5];
-// let arr2 = [3, 4];
+// let lowStar = '*'.repeat(5);
 
-// // let answer = arr1 + arr2;
-// // console.log(answer);
+// let columnStar = lowStar.repeat(3);
 
-// for (let i = 0; i < arr1.length; i++) {
-// // 	console.log(i);
-// // }
+// console.log(lowStar);
+// console.log(lowStar);
+// console.log(lowStar);
+// console.log(lowStar);
 
-// let a = [
-// 	[1, 2],
-// 	[3, 4],
-// ];
+let solution = function (n) {
+	let lowStars = '*'.repeat(n);
+	// let squareStars = lowStars.repeat(m);
+	return lowStars;
+};
 
-// console.log(a[0][0]);
-
-// let arr = Array(3);
-
-let arr = Array.from(Array(2), () => new Array(4));
-
-console.log(arr);
+console.log(solution(5));
