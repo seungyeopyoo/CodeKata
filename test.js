@@ -1,16 +1,13 @@
-// let lowStar = '*'.repeat(5);
+let getGCD = (num1, num2) => {
+	let gcd = 1;
 
-// let columnStar = lowStar.repeat(3);
+	for (let i = 2; i <= Math.min(num1, num2); i++) {
+		if (num1 % i === 0 && num2 % i === 0) {
+			gcd = i;
+		}
+	}
 
-// console.log(lowStar);
-// console.log(lowStar);
-// console.log(lowStar);
-// console.log(lowStar);
-
-let solution = function (n) {
-	let lowStars = '*'.repeat(n);
-	// let squareStars = lowStars.repeat(m);
-	return lowStars;
+	return gcd;
 };
 
-console.log(solution(5));
+console.log(getGCD(6, 12));
