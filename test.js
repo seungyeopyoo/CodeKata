@@ -1,13 +1,9 @@
-let getGCD = (num1, num2) => {
-	let gcd = 1;
+let iterable = 'try hello world';
 
-	for (let i = 2; i <= Math.min(num1, num2); i++) {
-		if (num1 % i === 0 && num2 % i === 0) {
-			gcd = i;
-		}
-	}
-
-	return gcd;
-};
-
-console.log(getGCD(6, 12));
+for (let value of iterable) {
+	console.log(value);
+}
+// let array = Array.from(iterable);
+// array.forEach((element) => {
+// 	console.log(element);
+// });

@@ -12,3 +12,30 @@
 
 //최대 공약수는 1부터 둘중 더 작은 놈까지 돌림 그중에서  나머지가 0인애들중에 가장 큰수가 최대 공약수
 // 최소 공배수는
+
+function solution(n, m) {
+	// 최대공약수를 구하는 함수
+	function gcd(a, b) {
+		let maxGCD = 1;
+		for (let i = 1; i <= Math.min(a, b); i++) {
+			if (a % i === 0 && b % i === 0) {
+				maxGCD = i;
+			}
+		}
+		return maxGCD;
+	}
+
+	// 최소공배수를 구하는 함수
+	function lcm(a, b, gcdValue) {
+		return (a * b) / gcdValue;
+	}
+
+	const greatestCommonDivisor = gcd(n, m);
+	const leastCommonMultiple = lcm(n, m, greatestCommonDivisor);
+
+	return [greatestCommonDivisor, leastCommonMultiple];
+}
+
+// 예제 사용
+console.log(solution(3, 12)); // [3, 12]
+console.log(solution(2, 5)); // [1, 10]
