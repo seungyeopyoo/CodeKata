@@ -1,4 +1,6 @@
-// <!-- 문제 설명
+// 두 수의 차
+// 제출 내역
+// 문제 설명
 // 정수 num1과 num2가 주어질 때, num1에서 num2를 뺀 값을 return하도록 soltuion 함수를 완성해주세요.
 
 // 제한사항
@@ -16,14 +18,8 @@
 
 // num1이 100이고 num2가 2이므로 100 - 2 = 98을 return합니다.
 
-// 의사코드 작성
-// 제한 사항 설정
-// num1 - num2 리턴
-
-function solution(num1, num2) {
-	if (num1 >= -50000 && num1 <= 50000 && num2 >= -50000 && num2 <= 50000) {
-		return num1 - num2;
-	}
-}
-// ex)
-console.log(solution(21, 10));
+const solution = function (num1, num2) {
+	return num1 - num2;
+};
+console.log(solution(2, 3));
+console.log(solution(100, 2));
