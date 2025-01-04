@@ -14,11 +14,11 @@ const solution = function (num1, num2, num3, num4) {
 	const bunza = num1 * num4 + num3 * num2;
 	const bunmo = num2 * num4;
 
-	const getGcd = (a, b) => (a % b == 0 ? b : getGcd(b, a % b));
+	const getGcd = (a, b) => (a % b == 0 ? b : getGcd(b, a % b)); //최대공약수 구하기
 
-	const gcd = getGcd(bunza, bunmo); //최대공약수
+	const gcd = getGcd(bunza, bunmo); // 분자와 분모의 최대 공약수 구하기
 
-	return [bunza / gcd, bunmo / gcd];
+	return [bunza / gcd, bunmo / gcd]; // 구해둔 최대 공약수로 분자 분모를 나눠주고 반환
 };
 console.log(solution(1, 2, 3, 4));
 console.log(solution(9, 2, 1, 3));
