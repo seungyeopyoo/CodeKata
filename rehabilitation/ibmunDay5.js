@@ -38,3 +38,6 @@ const solution = function (n) {
 
 	return array;
 };
+
+console.log(solution(10));
+console.log(solution(15));
