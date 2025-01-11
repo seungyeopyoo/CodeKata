@@ -1,5 +1,9 @@
-const array = [1, 2, 3, 4, 0];
+let num_list = [1, 2, 3, 4, 5];
 
-const x = array.sort((a, b) => a - b);
+let a = num_list.length;
 
-console.log(x);
+let answer = [];
+
+answer.push(num_list[a - 1]);
+
+console.log(answer);
