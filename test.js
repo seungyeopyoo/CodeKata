@@ -1,9 +1,9 @@
-let num_list = [1, 2, 3, 4, 5];
+let q = [];
+let x = 'hello';
+let t = x.split('');
 
-let a = num_list.length;
+console.log(t);
 
-let answer = [];
+let z = t.join('');
 
-answer.push(num_list[a - 1]);
-
-console.log(answer);
+console.log(z);
