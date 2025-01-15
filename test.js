@@ -1,9 +1,9 @@
 let q = [];
-let x = 'hello';
-let t = x.split('');
+let x = (23 + '').split('');
+// let t = x.split('');
 
-console.log(t);
+console.log(x);
 
-let z = t.join('');
+// let z = t.join('');
 
-console.log(z);
+// console.log(z);
