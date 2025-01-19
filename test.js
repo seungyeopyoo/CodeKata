@@ -1,9 +1,13 @@
-let q = [];
-let x = (23 + '').split('');
-// let t = x.split('');
+// let q = [];
+// let x = (23 + '').split('');
+// // let t = x.split('');
 
-console.log(x);
+// console.log(x);
 
-// let z = t.join('');
+// // let z = t.join('');
 
-// console.log(z);
+// // console.log(z);
+
+let q = parseInt(23 / 5);
+
+console.log(q);
