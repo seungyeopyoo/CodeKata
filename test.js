@@ -13,9 +13,11 @@
 
 // console.log(q);
 
-let a = [1, 2, 3, 4, 6, 5];
+let a = 'asddsa';
+let q = [];
+q.push(a);
 // let q = a.slice(0, 5);
-let q = a.filter((num) => num <= 3);
+// let q = a.filter((num) => num <= 3);
 // let q = [];
 // let z = q.push(a);
 // console.log(q);
