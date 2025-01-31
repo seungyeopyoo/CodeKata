@@ -14,11 +14,14 @@
 // console.log(q);
 
 let a = 'asddsa';
-let q = [];
-q.push(a);
+let q = ['10', 'z', '20', 'z'];
+// q.push(a);
 // let q = a.slice(0, 5);
 // let q = a.filter((num) => num <= 3);
 // let q = [];
 // let z = q.push(a);
 // console.log(q);
-console.log(q);
+let w = q.indexOf('z');
+
+let p = a.split('');
+console.log(p);
