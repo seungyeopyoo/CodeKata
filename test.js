@@ -13,15 +13,16 @@
 
 // console.log(q);
 
-let a = 'asddsa';
-let q = ['10', 'z', '20', 'z'];
+// let a = 'asddsa';
+let z = ['We', 'are', 'the', 'world!'];
 // q.push(a);
 // let q = a.slice(0, 5);
 // let q = a.filter((num) => num <= 3);
-// let q = [];
+let q = [];
 // let z = q.push(a);
 // console.log(q);
-let w = q.indexOf('z');
+let w = z.join(' ');
 
-let p = a.split('');
+let p = z.length;
+// let p = a.split('');
 console.log(p);
