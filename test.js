@@ -13,16 +13,19 @@
 
 // console.log(q);
 
-// let a = 'asddsa';
-let z = ['We', 'are', 'the', 'world!'];
+let a = 'onetwothree';
+// let z = ['We', 'are', 'the', 'world!'];
 // q.push(a);
 // let q = a.slice(0, 5);
 // let q = a.filter((num) => num <= 3);
-let q = [];
+// let q = [];
 // let z = q.push(a);
 // console.log(q);
-let w = z.join(' ');
+// let w = z.join(' ');
 
-let p = z.length;
+// let p = z.length;
 // let p = a.split('');
-console.log(p);
+// console.log(p);
+
+let b = a.replaceAll('one', 1).replaceAll('two', 2).replaceAll('three', 3);
+console.log(b);
