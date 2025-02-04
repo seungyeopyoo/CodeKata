@@ -29,3 +29,5 @@ let a = 'onetwothree';
 
 let b = a.replaceAll('one', 1).replaceAll('two', 2).replaceAll('three', 3);
 console.log(b);
+
+//day20
