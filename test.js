@@ -28,6 +28,9 @@ let a = 'onetwothree';
 // console.log(p);
 
 let b = a.replaceAll('one', 1).replaceAll('two', 2).replaceAll('three', 3);
-console.log(b);
+
+let p = [1, 8, 3];
+let s = Math.max(...p);
+console.log(s);
 
 //day20
