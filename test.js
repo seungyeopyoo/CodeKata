@@ -33,7 +33,12 @@
 // let s = eval(p);
 // console.log(s);
 
-let a = ['2', '9', '8', '1'];
-let q = a.find((num) => Number(num) === 9).indexOf(9);
-console.log(q);
+// let a = ['2', '9', '8', '1'];
+// let q = a.find((num) => Number(num) === 9).indexOf(9);
+// console.log(q);
 //day20
+
+let k = ['3 - 4 = -3', '5 + 6 = 11'];
+let o = k[1];
+let z = Boolean(k);
+console.log(z);
