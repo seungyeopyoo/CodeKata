@@ -13,7 +13,7 @@
 
 // console.log(q);
 
-let a = 'onetwothree';
+// let a = 'onetwothree';
 // let z = ['We', 'are', 'the', 'world!'];
 // q.push(a);
 // let q = a.slice(0, 5);
@@ -27,9 +27,13 @@ let a = 'onetwothree';
 // let p = a.split('');
 // console.log(p);
 
-let b = a.replaceAll('one', 1).replaceAll('two', 2).replaceAll('three', 3);
+// let b = a.replaceAll('one', 1).replaceAll('two', 2).replaceAll('three', 3);
 
-let p = '3 + 4';
-let s = eval(p);
-console.log(s);
+// let p = '3 + 4';
+// let s = eval(p);
+// console.log(s);
+
+let a = ['2', '9', '8', '1'];
+let q = a.find((num) => Number(num) === 9).indexOf(9);
+console.log(q);
 //day20
