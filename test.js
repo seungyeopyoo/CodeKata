@@ -29,8 +29,7 @@ let a = 'onetwothree';
 
 let b = a.replaceAll('one', 1).replaceAll('two', 2).replaceAll('three', 3);
 
-let p = [1, 8, 3];
-let s = Math.max(...p);
+let p = '3 + 4';
+let s = eval(p);
 console.log(s);
-
 //day20
