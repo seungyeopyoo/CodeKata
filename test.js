@@ -38,7 +38,11 @@
 // console.log(q);
 //day20
 
-let k = ['3 - 4 = -3', '5 + 6 = 11'];
-let o = k[1];
-let z = Boolean(k);
+// let k = ['3 - 4 = -3', '5 + 6 = 11'];
+// let o = k[1];
+// let z = Boolean(k);
+// console.log(z);
+
+let q = 'ab6CDE443fgh22iJKlmn1o';
+let z = q.includes('6CD');
 console.log(z);
