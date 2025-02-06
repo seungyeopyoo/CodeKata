@@ -43,6 +43,9 @@
 // let z = Boolean(k);
 // console.log(z);
 
-let q = 'ab6CDE443fgh22iJKlmn1o';
-let z = q.includes('6CD');
+// let q = 'ab6CDE443fgh22iJKlmn1o';
+// let z = q.includes('6CD');
+// console.log(z);
+
+let z = Math.sqrt(144);
 console.log(z);
