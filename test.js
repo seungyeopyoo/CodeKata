@@ -47,5 +47,9 @@
 // let z = q.includes('6CD');
 // console.log(z);
 
-let z = Math.sqrt(144);
+// let z = Math.sqrt(144);
+// console.log(z);
+
+let q = 'BCad';
+let z = [...q.toUpperCase()];
 console.log(z);
