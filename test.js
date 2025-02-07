@@ -50,6 +50,10 @@
 // let z = Math.sqrt(144);
 // console.log(z);
 
-let q = 'BCad';
-let z = [...q.toUpperCase()];
+// let q = 'BCad';
+// let z = [...q.toUpperCase()];
+// console.log(z);
+
+let q = [7, 77, 17];
+let z = q.filter((num) => num === 7);
 console.log(z);
