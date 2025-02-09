@@ -55,5 +55,7 @@
 // console.log(z);
 
 let q = [7, 77, 17];
-let z = q.filter((num) => num === 7);
+// let z = q.filter((num) => num === 7);
+
+let z = q.sort((a, b) => a - b);
 console.log(z);
