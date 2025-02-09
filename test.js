@@ -36,7 +36,6 @@
 // let a = ['2', '9', '8', '1'];
 // let q = a.find((num) => Number(num) === 9).indexOf(9);
 // console.log(q);
-//day20
 
 // let k = ['3 - 4 = -3', '5 + 6 = 11'];
 // let o = k[1];
@@ -54,8 +53,14 @@
 // let z = [...q.toUpperCase()];
 // console.log(z);
 
-let q = [7, 77, 17];
-// let z = q.filter((num) => num === 7);
+// let q = [7, 77, 17];
+// // let z = q.filter((num) => num === 7);
 
-let z = q.sort((a, b) => a - b);
-console.log(z);
+// let z = q.sort((a, b) => a - b);
+// console.log(z);
+
+let q = '3x + 7 + x'.split(' + ');
+let z = eval(q);
+console.log(q);
+
+//day20 25-2
