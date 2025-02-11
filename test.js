@@ -63,4 +63,4 @@ let q = '3x + 7 + x'.split(' + ');
 let z = eval(q);
 console.log(q);
 
-//day20 25-2
+//day20 25-2 26
