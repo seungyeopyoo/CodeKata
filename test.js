@@ -63,7 +63,11 @@
 // let z = eval(q);
 // console.log(q);
 
-let q = [1, 2, 4];
-let z = Math.max(...q);
+// let q = [1, 2, 4];
+// let z = Math.max(...q);
+// console.log(z);
+
+let q = ['sod', 'eocd', 'qixm', 'adio', 'soo'];
+let z = [...q].sort().join('');
 console.log(z);
 //day20 25-2 26
