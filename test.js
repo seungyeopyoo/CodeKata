@@ -59,8 +59,11 @@
 // let z = q.sort((a, b) => a - b);
 // console.log(z);
 
-let q = '3x + 7 + x'.split(' + ');
-let z = eval(q);
-console.log(q);
+// let q = '3x + 7 + x'.split(' + ');
+// let z = eval(q);
+// console.log(q);
 
+let q = [1, 2, 4];
+let z = Math.max(...q);
+console.log(z);
 //day20 25-2 26
