@@ -16,15 +16,14 @@
 
 // num1이 100이고 num2가 2이므로 100 - 2 = 98을 return합니다.
 
-// 의사코드 작성 
+// 의사코드 작성
 // 제한 사항 설정
 // num1 - num2 리턴
 
 function solution(num1, num2) {
-    if (num1 >= -50000 && num1 <= 50000 && num2 >= -50000 && num2 <= 50000) {
-        return num1 - num2;
-    }
-    
+	if (num1 >= -50000 && num1 <= 50000 && num2 >= -50000 && num2 <= 50000) {
+		return num1 - num2;
+	}
 }
-
+// ex)
 console.log(solution(21, 10));
