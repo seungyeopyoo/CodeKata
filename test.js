@@ -71,5 +71,5 @@
 // let z = [...q].sort().join('');
 // console.log(z);
 //day20 25-2 26
-
-console.log(4 ** 3 + 4 ** 3 + 4 ** 3);
+let q = ['0123456789', '9876543210', '9999999999999'];
+console.log(q[0].slice(5, 9));
