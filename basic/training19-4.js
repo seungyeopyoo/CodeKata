@@ -28,8 +28,8 @@
 const solution = function (numbers, n) {
 	let result = 0;
 	let i = 0;
-	while (answer <= n) {
-		answer += numbers[i];
+	while (result <= n) {
+		result += numbers[i];
 		i++;
 	}
 	return result;
