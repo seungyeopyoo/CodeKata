@@ -28,7 +28,7 @@
 const solution = function (myString) {
 	const result = [];
 	for (let i = 0; i < myString.length; i++) {
-		if (myString[i] === 'a') {
+		if (myString[i] === 'a' || myString[i] === 'A') {
 			result.push('A');
 		} else {
 			result.push(myString[i].toLowerCase());
