@@ -74,5 +74,5 @@
 // let q = ['0123456789', '9876543210', '9999999999999'];
 // console.log(q[0].slice(5, 9));
 
-let q = 'progr' + 'am';
-console.log(q);
+let q = 'aaaaaaaa';
+console.log(q.lastIndexOf('a'));
