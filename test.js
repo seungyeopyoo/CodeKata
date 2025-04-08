@@ -74,5 +74,14 @@
 // let q = ['0123456789', '9876543210', '9999999999999'];
 // console.log(q[0].slice(5, 9));
 
-let q = 'aaaaaaaa';
-console.log(q.lastIndexOf('a'));
+// let q = 'aaaaaaaa';
+// console.log(q.lastIndexOf('a'));
+
+// function a() {
+// 	console.log(b);
+// 	var b = 'bbb';
+// 	console.log(b);
+// 	function b() {}
+// 	console.log(b);
+// }
+// a();
