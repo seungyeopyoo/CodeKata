@@ -86,7 +86,10 @@
 // }
 // a();
 
-const a = Array(3).fill(2);
-let answer = Array.from({ length: 3 }, () => Array(2));
-console.log(a);
-console.log(answer);
+// const a = Array(3).fill(2);
+// let answer = Array.from({ length: 3 }, () => Array(2));
+// console.log(a);
+// console.log(answer);
+
+let s = 'banana';
+console.log(s.lastIndexOf('c'));
