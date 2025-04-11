@@ -34,7 +34,7 @@ const solution = function (array, commands) {
 		let [i, j, k] = ijk;
 
 		const sliced = arr.slice(i - 1, j);
-		const sorted = sliced.sort();
+		const sorted = sliced.sort((a, b) => a - b);
 		const pushNum = sorted[k - 1];
 
 		result.push(pushNum);
