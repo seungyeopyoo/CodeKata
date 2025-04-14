@@ -91,5 +91,8 @@
 // console.log(a);
 // console.log(answer);
 
-let s = 'banana';
-console.log(s.lastIndexOf('c'));
+// let s = 'banana';
+// console.log(s.lastIndexOf('c'));
+
+let q = 11;
+console.log(typeof q.toString(2));
