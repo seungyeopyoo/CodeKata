@@ -94,5 +94,7 @@
 // let s = 'banana';
 // console.log(s.lastIndexOf('c'));
 
-let q = 11;
-console.log(typeof q.toString(2));
+// let q = 11;
+// console.log(typeof q.toString(2));
+
+console.log(Math.sqrt(10));
