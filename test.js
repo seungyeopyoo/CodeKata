@@ -97,4 +97,21 @@
 // let q = 11;
 // console.log(typeof q.toString(2));
 
-console.log(Math.sqrt(10));
+// console.log(Math.sqrt(10));
+let a = [
+	'chicken',
+	'apple',
+	'apple',
+	'banana',
+	'rice',
+	'apple',
+	'pork',
+	'banana',
+	'pork',
+	'rice',
+	'pot',
+	'banana',
+	'apple',
+	'banana',
+];
+console.log(a.slice(5, 15));
